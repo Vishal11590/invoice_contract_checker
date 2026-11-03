@@ -1,0 +1,2 @@
+{'OK': 200000}
+200000 lines in 1.98s, about 101,252 lines/s, 9.9 microseconds a line

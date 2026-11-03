@@ -1,0 +1,38 @@
+INVOICE INV-SYN-0001 (synthetic)
+
+L02  RATE_TOO_HIGH    loss $ 1600.00  Software Engineer
+      why:      billed 120/h, contract says 100/h
+      invoice:  INV-SYN-0001.pdf p.1 line L02
+      contract: MSA_2026.pdf p.4 Exhibit B.1
+L04  NOT_IN_CONTRACT  loss $  500.00  Tech Support Fee
+      why:      no matching charge in the rate card
+      invoice:  INV-SYN-0001.pdf p.2 line L04
+L05  MATH_ERROR       loss $  500.00  Project Manager
+      why:      100 h at 150 should be 15000.00, invoice says 15500
+      invoice:  INV-SYN-0001.pdf p.2 line L05
+      contract: MSA_2026.pdf p.4 Exhibit B.3
+L06  DISCOUNT_MISSED  loss $  400.00  Software Engineer
+      why:      should be 19600.00 after the volume discount (MSA_2026.pdf p.5 Exhibit B.5)
+      invoice:  INV-SYN-0001.pdf p.2 line L06
+      contract: MSA_2026.pdf p.4 Exhibit B.1
+L07  NEEDS_REVIEW     loss $    0.00  Consultant (misc)
+      why:      mapping confidence 0.55 is below 0.80
+      invoice:  INV-SYN-0001.pdf p.3 line L07
+L08  BELOW_CONTRACT   loss $    0.00  Project Manager
+      why:      billed 140/h, contract says 150/h
+      invoice:  INV-SYN-0001.pdf p.3 line L08
+      contract: MSA_2026.pdf p.4 Exhibit B.3
+L09  DUPLICATE        loss $ 8000.00  Software Engineer
+      why:      same item, hours, rate and date already billed
+      invoice:  INV-SYN-0001.pdf p.3 line L09
+L10  RATE_TOO_HIGH    loss $  100.00  Software Engineer
+      why:      billed 110/h, contract says 100/h
+      invoice:  INV-SYN-0001.pdf p.3 line L10
+      contract: MSA_2026.pdf p.4 Exhibit B.1
+L12  NEEDS_REVIEW     loss $    0.00  Project Manager
+      why:      billed in EUR, contract is in USD
+      invoice:  INV-SYN-0001.pdf p.4 line L12
+
+Total matches the lines: True
+Confirmed loss: $11100.00
+Waiting for a person: L07, L12

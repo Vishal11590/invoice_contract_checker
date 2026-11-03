@@ -1,0 +1,15 @@
+test_invented_rate_is_rejected (__main__.Grounding.test_invented_rate_is_rejected) ... ok
+test_real_terms_pass (__main__.Grounding.test_real_terms_pass) ... ok
+test_wrong_discount_is_rejected (__main__.Grounding.test_wrong_discount_is_rejected) ... ok
+test_f1_confident_wrong_mapping_gives_a_false_alarm (__main__.KnownFailures.test_f1_confident_wrong_mapping_gives_a_false_alarm) ... ok
+test_f2_discount_that_should_span_several_lines_is_missed (__main__.KnownFailures.test_f2_discount_that_should_span_several_lines_is_missed) ... ok
+test_f3_duplicate_with_the_date_off_by_one_is_missed (__main__.KnownFailures.test_f3_duplicate_with_the_date_off_by_one_is_missed) ... ok
+test_confirmed_loss (__main__.SampleInvoice.test_confirmed_loss) ... ok
+test_every_line (__main__.SampleInvoice.test_every_line) ... ok
+test_money_flags_carry_both_citations (__main__.SampleInvoice.test_money_flags_carry_both_citations) ... ok
+test_total_ignores_the_euro_line (__main__.SampleInvoice.test_total_ignores_the_euro_line) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK
